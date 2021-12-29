@@ -1,0 +1,14 @@
+.person {
+  height: 30px;
+  text-align: center;
+  font-size: 2em;
+  border: 1px solid black;
+  margin-top: 10px;
+  position: relative;
+}
+
+.person button {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}

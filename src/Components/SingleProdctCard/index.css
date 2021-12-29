@@ -1,0 +1,37 @@
+.productsWrapper {
+  width: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1%;
+  margin: auto;
+}
+
+.productsWrapper > * {
+  flex: 1 1 30%;
+
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.buyButton {
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.buyButton:hover {
+  background-color: #1976d2;
+}
+
+.buttonIcon {
+  transition: 0.5s;
+}
+.buyButton:hover .buttonIcon {
+  color: white;
+}
+
+.price {
+  font-size: 2em !important;
+  color: black !important;
+}

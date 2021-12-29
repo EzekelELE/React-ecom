@@ -1,0 +1,18 @@
+.names {
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.names .del {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.add {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}

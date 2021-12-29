@@ -1,0 +1,18 @@
+.cart {
+  margin-top: 70px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.row > div {
+  flex: 1 1 100px;
+  text-align: center;
+}

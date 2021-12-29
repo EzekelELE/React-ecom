@@ -1,0 +1,29 @@
+.productQuantity {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.productQuantity > * {
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.productQuantity button {
+  background-color: rgb(201, 201, 201);
+  color: rgb(10, 9, 9);
+  border: none;
+  font-size: 2em;
+  transition: 0.2s;
+}
+
+.productQuantity button:hover {
+  background-color: rgb(34, 33, 33);
+  color: white;
+}
+.productQuantity div {
+  box-shadow: 0px 0px 2px black;
+}

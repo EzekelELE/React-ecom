@@ -1,0 +1,9 @@
+.Product-rows {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1%;
+}
+
+.Product-rows > * {
+  flex: 30%;
+}

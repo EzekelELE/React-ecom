@@ -1,0 +1,12 @@
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  position: fixed !important;
+  top: 0px;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.links:visited {
+  color: white;
+}
